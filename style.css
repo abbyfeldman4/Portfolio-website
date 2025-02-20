@@ -77,13 +77,6 @@ body {
     max-width: 100%;
 }
 
-.pink-box {
-    width: 300px; /* Matches the width of your profile image */
-    height: 460px; /* Adjust height to match image height */
-    background-color: #e9b6b6; /* Same pink color */
-    border-radius: 10px;
-}
-
 /* Footer - LinkedIn Button */
 footer {
     display: flex;
