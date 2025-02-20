@@ -34,3 +34,8 @@ nav ul li a {
 nav {
     margin-right: 20px;
 }
+
+nav {
+    position: relative;
+    z-index: 10;
+}
