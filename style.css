@@ -1,0 +1,14 @@
+header {
+    background:#333
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-tems: center;
+
+}
+
+header h1 {
+    margin-left: 20px;
+
+}
