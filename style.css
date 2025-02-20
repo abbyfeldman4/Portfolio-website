@@ -14,7 +14,6 @@ nav ul {
     margin: 50px; /* Needs "px" unit */
     padding: 50px; /* Needs "px" unit */
     display: flex;
-    position: absolute; /* Needs position to use top/right */
     top: 20px;
     right: 20px;
 }
