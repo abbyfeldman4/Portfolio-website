@@ -110,3 +110,51 @@ footer {
     height: 24px;
     margin-right: 10px;
 }
+
+/* About Me Page Layout */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+/* About Text */
+.about-text {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* About Image */
+.about-image img {
+    width: 250px; /* Adjust size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Skills Section */
+.skills {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
