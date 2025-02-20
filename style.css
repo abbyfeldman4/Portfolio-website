@@ -79,7 +79,7 @@ body {
 
 .pink-box {
     width: 300px; /* Matches the width of your profile image */
-    height: 450px; /* Adjust height to match image height */
+    height: 460px; /* Adjust height to match image height */
     background-color: #e9b6b6; /* Same pink color */
     border-radius: 10px;
 }
