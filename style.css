@@ -1,3 +1,4 @@
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -7,12 +8,14 @@ header {
     color: rgb(0, 0, 0);
 }
 
+/* Navigation */
 nav ul {
-    list-style:circle
-    margin: 50;
-    padding: 50;
-    display:flex; 
-    top: 20px; 
+    list-style: circle; /* Fixed missing semicolon */
+    margin: 50px; /* Needs "px" unit */
+    padding: 50px; /* Needs "px" unit */
+    display: flex;
+    position: absolute; /* Needs position to use top/right */
+    top: 20px;
     right: 20px;
 }
 
@@ -21,31 +24,33 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration:none;
+    text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 5px 2px;
     transition: color 0.3s;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #ff8f8f;
 }
 
+/* Body */
 body {
-    font-family:'Times New Roman', Times, serif;
-    margin: 10;
-    padding: 10;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px; 
+    padding: 10px;
     background-color: #f4f4f4;
     text-align: center;
 }
 
+/* Intro Section */
 .intro {
-    margin: 50px; auto;
+    margin: 50px auto;
     width: 60%;
 }
 
-.intro h2 { 
+.intro h2 {
     font-size: 24px;
     font-weight: bold;
 }
@@ -55,6 +60,7 @@ body {
     line-height: 1.5;
 }
 
+
 .profile-photo {
     display: flex;
     justify-content: center;
@@ -62,8 +68,9 @@ body {
 }
 
 .profile-photo img {
-    width: 300px;
+    width: 200px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba (0, 0, 0, 0.2);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
 }
