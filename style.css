@@ -158,3 +158,53 @@ footer {
     margin: 10px 0;
 }
 
+
+/* Portfolio Section */
+.portfolio-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.portfolio-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Portfolio Grid Layout */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive layout */
+    gap: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+/* Individual Portfolio Items */
+.portfolio-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 150px; /* Adjust image size */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Hover Effects */
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
