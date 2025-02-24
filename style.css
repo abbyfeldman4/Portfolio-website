@@ -3,16 +3,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Reduced header thickness */
+    padding: 10px 20px; 
     background-color: #e9b6b6;
     color: rgb(0, 0, 0);
 }
 
 /* Navigation */
 nav ul {
-    list-style: none; /* Removed circle bullets */
-    margin: 0; /* Fixed excessive margin */
-    padding: 0; /* Removed extra padding */
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
     display: flex;
 }
 
