@@ -6,6 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT ME</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic mobile-friendly styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 5px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 12px;
+            display: block;
+        }
+
+        .about-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            padding: 5px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .about-container {
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -27,9 +91,9 @@
             <p>Hi! I'm Abby Feldman, a multimedia journalist passionate about visual storytelling. My work focuses on uplifting marginalized voices and covering meaningful stories that inspire change. With experience in investigative reporting, video production, and digital content creation, I strive to inform and engage audiences through impactful journalism.</p>
             <p>Currently, I'm a graduate journalism student at Northwestern Medill, where I'm honing my storytelling skills across different platforms. Whether it's writing in-depth articles, producing video documentaries, or crafting digital content, I love exploring the intersection of media, technology, and social change.</p>
         </div>
+    </section>
 
     <section class="skills">
-        <!-- Skills and Interests section -->
         <h2>Skills & Interests</h2>
         <ul>
             <li>🎥 Video Production & Editing</li>
@@ -38,6 +102,7 @@
             <li>🎙️ Podcasting & Audio Editing</li>
             <li>📊 Data Journalism & Visualization</li>
         </ul>
+    </section>
 
 </body>
 </html>
